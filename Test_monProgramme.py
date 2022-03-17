@@ -5,7 +5,7 @@ class TestMonProgramme(unittest.TestCase):
 
     def testMultiplication(self):
         r = mp.multiplication(2,3)
-        self.assertEqual(r, 6)
+        self.assertEqual(r, 4)
 
 if __name__ == "__main__":
     unittest.main()
